@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container{
+           
+       border: 2px solid black;
+       width: 400px;
+       height: 300px;
+        
+
+        }
+        .container2{
+        
+            border: 2px solid black;
+            /* width: 800px;
+            height: 800px; */
+            padding-left: 10px;
+            text-align: center;
+            
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    
+    <script src="email.js"></script>
+    <script src="content.js"></script>
+    <div class="container2">
+    <h1>Email Form</h1>
+    <br><br>
+    <h2>From</h2>
+    <input type="email" placeholder="Sender's Email Address" id="e1" style=" padding: 15px ;font-size: 16px; border-color:black;">
+    <br>
+    <h2>To</h2>
+    <input type="email" placeholder="Receiver's Email Address" id="e2" style=" padding: 15px ;font-size: 16px; border-color:black;"">
+    <br>
+    <br>
+    <h2>Subject</h2>
+    <input type="text" placeholder="Subject" id="e3" style=" padding: 15px ;font-size: 16px; border-color:black;">
+    <br>
+    <br>
+    <h2>Body</h2>
+    <input type="text" placeholder="Subject" id="e4" class="container"> 
+    <br><br>
+    
+
+    <button onclick="emailSending()" style=" padding: 15px ;font-size: 16px; border-color:black;">Send</button> 
+    </div>
+</body>
+</html>
